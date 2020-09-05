@@ -1,0 +1,130 @@
+#loginbtn{
+  background-color: #f8636b !important;
+}
+
+.login_area {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.login_area .login_info {
+  padding: 160px 100px 160px 0px;
+}
+
+.login_area .login_info:before {
+  content: "";
+  position: absolute;
+  width: 2500px;
+  right: 0;
+  height: 100%;
+  background: #fbfbfb;
+  top: 0;
+  z-index: -1;
+}
+
+.login_area .login_info p a {
+  color: #677294;
+}
+
+.login-form .text_box .text_c {
+  color: #161341;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.login-form .text_box input[type="password"] {
+  padding-top: 8px;
+  line-height: 50px;
+}
+
+.login-form .text_box input[type="password"]:focus {
+  padding-top: 0px;
+}
+
+.login-form .extra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font: 400 14px/30px "Poppins", sans-serif;
+  margin-top: 45px;
+}
+
+.login-form .extra .checkbox label {
+  margin-bottom: 0px;
+  color: #161341;
+}
+
+.login-form .extra .checkbox input[type="checkbox"] {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.login-form .extra .checkbox input[type="checkbox"]:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 0;
+  border: 1px solid #7348ef;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.login-form .extra .checkbox input[type="checkbox"]:checked:after {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 8px;
+  border: solid #7348ef;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0px;
+  left: 3px;
+}
+
+.login-form .extra .forgotten-password a {
+  color: #677294;
+}
+
+.login-form .btn_three {
+  width: 100%;
+  background: #5e2ced;
+  color: rgb(248, 99, 107);;
+  margin-top: 40px;
+}
+
+.login-form .btn_three:hover {
+  -webkit-box-shadow: 0px 20px 30px 0px rgba(61, 100, 244, 0.16);
+  box-shadow: 0px 20px 30px 0px rgba(61, 100, 244, 0.16);
+}
+
+.login-form .alter-login {
+  font: 400 15px/26px "Poppins", sans-serif;
+  color: #fff;
+}
+
+.login-form .alter-login a {
+  color: #5e2ced;
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.login_img {
+  padding-left: 100px;
+  margin-right: -250px;
+}
+
+.login_img img {
+  max-width: 100%;
+}
